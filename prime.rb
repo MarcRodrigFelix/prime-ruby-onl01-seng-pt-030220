@@ -8,7 +8,12 @@ def prime?(num)
 
   num_arr = (2..(num - 1)).to_a
 
-  num_arr.none? { |n| num % n == 0 }
+  num_arr.none? do |n|
+    if num % n == 0
+      false
+    else
+      true
+  end
 
 end
 # if num % n == 0
