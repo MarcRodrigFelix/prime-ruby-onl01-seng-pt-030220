@@ -15,10 +15,8 @@ def prime?(num)
 
     if num % n == 0
       return false
-    end
-
-  end
-  true
+    elsif num % n != 0
+      return true
 
 end
 
