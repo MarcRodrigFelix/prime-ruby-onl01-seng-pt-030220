@@ -11,7 +11,9 @@ def prime?(num)
   num_arr.each do |n|
    if num % n == 0
      false
-   end
+   else
+     true
+   
  end
 
 end
