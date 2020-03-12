@@ -10,7 +10,7 @@ def prime?(num)
   # end
 
   return false if num < 0
-end 
+
   num_arr = (2..(num - 1)).to_a #your number, turn it range of numbers
 
   num_arr.none? { |n| num % n == 0 }
