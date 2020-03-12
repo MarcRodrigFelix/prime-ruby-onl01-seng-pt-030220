@@ -23,7 +23,7 @@ def prime?(num)
   while n < num
     if num % n == 1
       true
-      break 
+      break
     else
       false
       n += 1
