@@ -13,6 +13,7 @@ def prime?(num)
      false
    else
      true
+   end
  end
 
 end
