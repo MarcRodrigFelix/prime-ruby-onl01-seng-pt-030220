@@ -24,10 +24,7 @@ def prime?(num)
     if num % n == 0
       n += 1
       false
-    else
-      true
     end
+      true
 
-  end
-  
 end
