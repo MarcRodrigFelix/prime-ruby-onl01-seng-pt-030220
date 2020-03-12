@@ -25,16 +25,15 @@
 # end
 
 def prime?(num)
-  if num < 0
-    return false
-  else
 
   n = 2
   while n < num
-    return false if num % n == 0
-    n += 1
-  end
-  true
-end
 
+    if num % n != 0
+      return true 
+    else
+      return false
+    end
+    
+  end
 end
