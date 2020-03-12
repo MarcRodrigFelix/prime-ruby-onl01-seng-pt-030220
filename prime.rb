@@ -5,16 +5,14 @@
 # If at the end of the loop, none of the range numbers (n) created a 0 remainder, the number in question (num) is, indeed, prime
 
 def prime?(num)
+  if num < 0
+    return false 
 
+  else
+    
   num_arr = (2..(num - 1)).to_a
 
-  num_arr.none? do |n|
-    if num % n == 0
-      true
-    else
-      false
-    end
-  end
+  num_arr.none? { |n| num % n == 0 }
 
 end
 # if num % n == 0
