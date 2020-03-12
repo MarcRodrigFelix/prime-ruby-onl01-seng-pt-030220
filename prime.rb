@@ -26,7 +26,7 @@ def prime?(num)
 
     if num % n != 0
       return true
-  
+    end
   end
   return false
 
