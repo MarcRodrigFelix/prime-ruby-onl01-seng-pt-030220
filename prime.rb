@@ -17,7 +17,9 @@ def prime?(num)
       return false
     elsif num % n != 0
       return true
-end
+    end
+  end
+  
 end
 
 # def prime?(num)
