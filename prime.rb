@@ -11,13 +11,13 @@ def prime?(num)
 
   num_arr = (2..(num - 1)).to_a #your number, turn it range of numbers
 
-  num_arr.any? do |n|
+  num_arr.any? do { |n| num % n == 0 }
 
-    if num % n == 0
-      return false
-    else 
-      return true
-    end
+    # if num % n == 0
+    #   return false
+    # else 
+    #   return true
+    # end
   end
 
 end
