@@ -7,7 +7,7 @@
 def prime?(num)
   if num < 0
     false
-  else
+  end
 
   num_arr = (2..(num - 1)).to_a #your number, turn it range of numbers
 
@@ -17,7 +17,6 @@ def prime?(num)
     end
   end
 true
-end
 
 end
 
