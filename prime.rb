@@ -7,9 +7,9 @@
 def prime?(num)
 
 
-  
+
   num_arr = (2..(num - 1)).to_a
-  
+
   num_arr.none? { |n| num % n == 0 }
     # if num % n == 0
     #   return false
@@ -20,10 +20,10 @@ def prime?(num)
 end
 
 # def prime?(num)
-# 
+#
 #   n = 2
 #   while n < num
-# 
+#
 #     if num % n != 0
 #       return true
 #     end
