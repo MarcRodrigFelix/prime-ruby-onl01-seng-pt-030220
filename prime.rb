@@ -7,7 +7,7 @@
 def prime?(num)
   # num_arr = (2..(num - 1)).to_a
 
-  (2..(num - 1)).each do |n|
+  (2..(num - 1)).to_a.each do |n|
    if num % n == 0
      false
    end
