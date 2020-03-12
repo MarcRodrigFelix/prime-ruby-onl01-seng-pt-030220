@@ -30,10 +30,10 @@ def prime?(num)
   while n < num
 
     if num % n != 0
-      return true 
+      return true
     else
       return false
     end
-    
+
   end
 end
