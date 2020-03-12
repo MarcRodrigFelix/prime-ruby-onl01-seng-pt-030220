@@ -8,7 +8,7 @@ def prime?(num)
   if num < 0
     false
   end
-  
+
   num_arr = (2..(num - 1)).to_a #your number, turn it range of numbers
 
   num_arr.each do |n|
