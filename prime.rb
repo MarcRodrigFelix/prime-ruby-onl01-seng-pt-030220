@@ -10,10 +10,10 @@ def prime?(num)
 
   num_arr.none? do |n|
     if num % n == 0
-      false
-    else
       true
-    end 
+    else
+      false
+    end
   end
 
 end
