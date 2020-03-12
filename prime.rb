@@ -22,8 +22,8 @@ def prime?(num)
 
   while n < num
     if num % n == 0
-      n += 1
       false
+      n += 1
     end
       true
 
