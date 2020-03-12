@@ -6,18 +6,20 @@
 
 def prime?(num)
 
-
-
   num_arr = (2..(num - 1)).to_a
 
   num_arr.none? { |n| num % n == 0 }
-    # if num % n == 0
-    #   return false
-    # else
-    #   return true
-    # end
-  # end
+
 end
+# if num % n == 0
+#   return false
+# else
+#   return true
+# end
+# end
+
+
+
 
 # def prime?(num)
 #
