@@ -5,7 +5,7 @@
 # If at the end of the loop, none of the range numbers (n) created a 0 remainder, the number in question (num) is, indeed, prime
 
 def prime?(num)
-  num_arr = (2..(num - 1)).to_a
+  num_arr = (2..(num - 1)) #your number, turn it range of numbers
 
   num_arr.each do |n|
     return false if num % n == 0
