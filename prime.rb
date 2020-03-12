@@ -8,27 +8,27 @@
 #   # if num < 0
 #   #   return false
 #   # end
-# 
+#
 #   return false if num < 0
-# 
+#
 #   num_arr = (2..(num - 1)).to_a #your number, turn it range of numbers
-# 
+#
 #   num_arr.none? { |n| num % n == 0 }
-# 
+#
 #     # if num % n == 0
 #     #   return false
 #     # else
 #     #   return true
 #     # end
 #   # end
-# 
+#
 # end
 
 def prime?(num)
   if num < 0
     return false
-  else 
-        
+  else
+
   n = 2
   while n < num
     return false if num % n == 0 || num % n !== 0
