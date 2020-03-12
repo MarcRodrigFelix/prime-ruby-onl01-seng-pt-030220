@@ -21,7 +21,7 @@ def prime?(num)
     if num % n == 0
     n += 1
     false
+    end
   end
-end
-true 
+  true 
 end
